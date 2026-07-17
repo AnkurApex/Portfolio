@@ -10,7 +10,7 @@ export const developerConfig = {
   github: "https://github.com/AnkurApex",
   linkedin: "https://www.linkedin.com/in/ankur-singh-b81a41300",
   resumeFilename: "Ankur_Singh_Resume.pdf",
-  resumeUrl: "/Ankur Singh resume.pdf",
+  resumeUrl: "/Ankur_Singh_Resume.pdf",
   profilePicture: "/images/my photo.jpeg",
   location: "India",
 };
