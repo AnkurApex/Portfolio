@@ -2,7 +2,6 @@
 
 A premium, modern, and highly interactive portfolio website showcasing my work, projects, and technical skills as a Software Engineer. Built with **Next.js**, **Tailwind CSS**, and **Framer Motion**, featuring a stunning dark space theme with an animated 3D starfield background.
 
-Live Site: [https://github.com/AnkurApex/Portfolio](https://github.com/AnkurApex/Portfolio)
 
 ---
 
@@ -104,9 +103,3 @@ To personalize the portfolio with your own details:
 - **Social links**: Edit `data/social.ts` to add LinkedIn, GitHub, and email handles.
 
 ---
-
-## 📝 License & Attribution
-
-Designed and developed by Ankur Singh. Original design template credits to [Achyut Katiyar](https://github.com/achyut21).
-
-© 2026 Ankur Singh. All Rights Reserved.
