@@ -447,13 +447,13 @@ const BODY_CONTENT = `<header>
       <div class="sec-tag">/ 02 — SELECTED WORK</div>
       <div class="sec-title">Featured Projects</div>
     </div>
-    <p class="sec-desc">Five systems — three shipped, two in active build — one throughline: nothing ships an answer without a way to check it.</p>
+    <p class="sec-desc">Five systems — three complete, two in active build — one throughline: nothing ships an answer without a way to check it.</p>
   </div>
 
   <div class="project reveal">
     <div class="project-head">
       <div><h3>FinLens</h3><p class="role">Multi-agent RAG for financial filings</p></div>
-      <span class="stamp-badge">SHIPPED</span>
+      <span class="stamp-badge">COMPLETE</span>
     </div>
     <div class="project-body">
       <p>A portfolio-grade financial filing intelligence platform for SEC 10-K/10-Q documents. Uses LangGraph agents with hybrid retrieval (pgvector + BM25 + RRF), routes numeric queries through a dedicated Table Agent, and returns grounded answers with citations while refusing unsupported responses.</p>
@@ -464,7 +464,7 @@ const BODY_CONTENT = `<header>
   <div class="project reveal">
     <div class="project-head">
       <div><h3>RAGScope</h3><p class="role">Production RAG evaluation &amp; observability platform</p></div>
-      <span class="stamp-badge">SHIPPED</span>
+      <span class="stamp-badge">COMPLETE</span>
     </div>
     <div class="project-body">
       <p>A production-ready RAG platform for document QA with ingestion, hybrid retrieval, telemetry, hallucination detection, and evaluation dashboards. Tracks retrieval quality, latency, token usage, and groundedness while providing end-to-end observability for RAG pipelines.</p>
@@ -475,7 +475,7 @@ const BODY_CONTENT = `<header>
   <div class="project reveal">
     <div class="project-head">
       <div><h3>Helpzy (LocalPro)</h3><p class="role">Local services marketplace platform</p></div>
-      <span class="stamp-badge">SHIPPED</span>
+      <span class="stamp-badge">COMPLETE</span>
     </div>
     <div class="project-body">
       <p>A full-stack marketplace connecting customers with local service providers. Supports provider discovery, bookings, authentication, profiles, reviews, admin management, and REST APIs with a lightweight SQLite-backed data layer.</p>
