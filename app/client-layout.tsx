@@ -39,7 +39,27 @@ const fontDisplay = localFont({
   variable: "--font-display",
 });
 
+import { usePathname } from "next/navigation";
+
 export function ClientLayout({ children }: { children: React.ReactNode }) {
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+
+  if (isHome) {
+    return (
+      <html lang="en" suppressHydrationWarning>
+        <head>
+          <title>Ankur — Software Engineer, AI/ML</title>
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+        </head>
+        <body style={{ margin: 0, padding: 0 }} suppressHydrationWarning>
+          {children}
+        </body>
+      </html>
+    );
+  }
+
   return (
     <html lang="en" suppressHydrationWarning>
       <body
@@ -72,3 +92,4 @@ export function ClientLayout({ children }: { children: React.ReactNode }) {
     </html>
   );
 }
+
